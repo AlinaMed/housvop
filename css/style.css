@@ -398,8 +398,8 @@ footer {
   background-color: #2d343c;
 
   width: 100%;
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
 }
 .wrapper-footer {
   display: flex;
@@ -410,7 +410,7 @@ footer {
 .info1,
 .info2,
 .contacs {
-  padding-left: 166px;
+  /* padding-left: 166px; */
 }
 .wrapper-footer li,
 .wrapper-footer p {
@@ -424,14 +424,24 @@ footer {
   color: #d4c17f;
   text-decoration: none;
 }
-.footer-icon :hover {
-  color: #d4c17f;
+.footer-icon:hover {
+  border: 2px;
+ border-color: #d4c17f;
 }
 
 .contacs-mail {
   color: #d4c17f;
 }
 
-.footer-icon img:not(:last-child) {
+.contacs-mail:hover {
+  color:#bebebe;
+}
+
+.footer-icon a:not(:last-child) {
   margin-right: 18px;
+}
+
+.footer-icon a:hover{
+  border: 2px;
+  border-color: #d4c17f;
 }
