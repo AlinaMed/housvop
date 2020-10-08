@@ -257,13 +257,15 @@ p {
 }
 .view-content {
   display: flex;
+  /* flex-wrap: wrap; */
   margin-top: 29px;
 }
 .view-text {
   padding-top: 21px;
   width: 50%;
-  width: 535px;
-  height: 114px;
+   width: 535px; 
+  padding-bottom: 20px;
+  /* height: 114px; */
   left: 405px;
   top: 2332px;
 
@@ -288,7 +290,8 @@ p {
 }
 .view-watch p {
   width: 255px;
-  height: 55px;
+  /* height: 55px; */
+  margin-bottom: 35px;
   font-family: Raleway;
   font-style: normal;
   font-weight: normal;

@@ -74,6 +74,28 @@
     max-width: 100%;
     height: auto;
    }
+
+   .view-content {
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 10% auto;
+  }
+
+  .view-watch{
+    text-align: center;
+    margin: 10% auto;
+  }
+  .view-text{
+    padding: 0;
+  }
+
+  .wrapper-qwestion{
+    flex-direction: column;
+  }
+
+  .wrapper-footer{
+  flex-wrap: wrap;
+  }
    
 
 }
