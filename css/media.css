@@ -16,9 +16,6 @@
     width: 100%;
    
   }
-
-
-
   .header-text {
     margin: 25% 20%;
     text-align: center;
@@ -53,7 +50,9 @@
   .contact-icon {
     margin-bottom: 10%;
   }
-
+  .our-advants {
+    margin-top: 50px;
+}
   .our-advant {
     flex-direction: column;
   }
@@ -61,6 +60,13 @@
     margin: 5% auto;
     width: auto;
   }
+  .apartments {
+    margin-top: 90px;
+}
+
+  .house {
+    margin-top: 40px;
+}
 
 
   .card {
@@ -68,12 +74,20 @@
     width: 75%; 
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0px;
    }
 
    .video-center img{
     max-width: 100%;
     height: auto;
    }
+
+   .view {
+    padding-top: 0px;
+    padding-bottom: 0px;
+   }
+    
+
 
    .view-content {
     flex-wrap: wrap;
@@ -93,9 +107,33 @@
     flex-direction: column;
   }
 
+  .carta {
+    padding-top: 90px;
+  }
+
+  .map {
+    margin-top: 30px;
+  }
+
+  .qwestion {
+    margin-top: 90px;
+    margin-bottom: 90px;
+  }
+
+
   .wrapper-footer{
   flex-wrap: wrap;
   }
+  footer {
+    
+    height: 55vh;
    
+  }
+  footer-text p
+  {
+    font-size: 10px;
+  }
+                        
+  
 
 }
